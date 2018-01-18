@@ -117,7 +117,7 @@ Collections.sort(list, new Comparator<Integer>() {
    // return o2‐o1; 1‐>0
    }
 });
-
+Collections.reverse(list);
 /********************** Stack, Queue, PriorityQueue, Deque ***********************/
 Stack<Integer> stack = new Stack<Integer>();
 stack.push(10);
